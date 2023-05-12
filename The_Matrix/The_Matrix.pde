@@ -6,8 +6,8 @@ int nRow;
 int nCol;
 int black = 0;
 void setup(){
-    size(1280,720,P3D);
-    //fullScreen(P3D);
+    //size(1280,720,P3D);
+    fullScreen(P3D);
     textFont(createFont("simfang.ttf",108));
     textAlign(CENTER);
     textSize(cubeSize);
